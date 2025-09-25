@@ -2,6 +2,7 @@
 	--c-black: rgb(21, 2, 1);
 	--c-blue: rgb(0, 33, 59);
 	--c-green: rgb(206, 226, 223);
+	font-family: sans-serif;
 }
 body {
 	margin: 0;

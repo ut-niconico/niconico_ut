@@ -31,7 +31,7 @@ h1 {
 }
 
 main {
-	padding: 0 max(2rem, 15vw);
+	padding: 0 max(1rem, 15vw);
 	font-size: 1.2rem;
 }
 main > p {
