@@ -1,0 +1,51 @@
+:root {
+	--heading-fsize: max(4vw, 4rem);
+}
+h1 {
+	padding: 10vh 0;
+	margin: 0 0 10vw 0;
+	text-align: center;
+	font-family: "M PLUS Rounded 1c", sans-serif;
+	font-weight: 800;
+	font-size: var(--heading-fsize);
+	color: var(--c-green);
+}
+.lp-back {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+}
+#back1 {
+	background-color: var(--c-blue);
+	right: 0;
+	bottom: calc(-20vh - var(--heading-fsize));
+	z-index: -1;
+	transform: skewY(-5deg);
+}
+#back2 {
+	background-color: var(--c-black);
+	right: 0;
+	bottom: calc(-20vh - var(--heading-fsize));
+	z-index: -2;
+	transform: skewY(5deg);
+}
+
+main {
+	padding: 0 max(2rem, 15vw);
+	font-size: 1.2rem;
+}
+main > p {
+	padding: 0 1rem;
+}
+main > ul {
+	padding-inline-start: 3.5rem
+}
+
+footer {
+	text-align: center;
+	padding: 2rem;
+}
+footer > small {
+	font-size: 1rem;
+	font-style: italic;
+}
