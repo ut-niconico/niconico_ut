@@ -1,5 +1,5 @@
 :root {
-	--heading-fsize: max(4vw, 4rem);
+	--heading-fsize: min(8vw, 4rem);
 }
 h1 {
 	padding: 10vh 0;
