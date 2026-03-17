@@ -31,14 +31,20 @@ h1 {
 }
 
 main {
-	padding: 0 max(1rem, 15vw);
+	padding: 0 max(2rem, calc(20vw - 5rem));
 	font-size: 1.2rem;
 }
-main > p {
+main > p, dl {
 	padding: 0 1rem;
 }
 main > ul {
 	padding-inline-start: 3.5rem
+}
+main > dt {
+	font-weight: 700;
+}
+main > iframe {
+	margin-left: 1rem;
 }
 
 footer {
