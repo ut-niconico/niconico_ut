@@ -40,7 +40,7 @@ main > p, dl {
 main > ul {
 	padding-inline-start: 3.5rem
 }
-main > dt {
+dt {
 	font-weight: 700;
 }
 main > iframe {
