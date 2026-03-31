@@ -10,10 +10,13 @@ body {
 
 h2 {
 	position: relative;
-	padding: 0.5em;
+	padding: 1rem;
 	margin: 1.5rem 0;
 	background-color: var(--c-blue);
 	color: white;
+	font-size: 1.8rem;
+	line-height: 1;
+	height: 1.8rem;
 }
 h2::before {
 	position: absolute;
