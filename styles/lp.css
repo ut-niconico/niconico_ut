@@ -43,8 +43,16 @@ main > ul {
 dt {
 	font-weight: 700;
 }
-main > iframe {
-	margin-left: 1rem;
+
+.nicovideo-embed-wrapper {
+	padding: 0 1rem;
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: calc(100% - 2rem);
+}
+.nicovideo-embed-wrapper > iframe {
+	margin: 1rem 0;
 }
 
 footer {
